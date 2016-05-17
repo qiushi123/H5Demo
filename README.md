@@ -8,7 +8,7 @@
 html5标签属性不支持，那只有通过javascript来处理了
 
 
-演示apk下载地址：
+演示apk下载地址：http://download.csdn.net/detail/qiushi_1990/9513038
 #下面是实现步骤和原理
 一，我们在设置的WebViewClient中覆盖方法：
 	不要忘记了webview.getSettings().settings.setJavaScriptEnabled(true)启用javascript,AndroidManifest加入INTERNET权限
